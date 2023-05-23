@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message Job {
+  string job_id = 1;
+  string job_status = 2;
+}
+
+service JobService {
+  rpc AddJob(Job) returns (Job);
+}
