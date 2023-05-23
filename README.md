@@ -1,2 +1,2 @@
 # pythonicity
-Getting started with djanog, grpc, graphql
+django, grpc, graphql python explorations
